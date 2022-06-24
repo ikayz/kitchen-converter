@@ -69,4 +69,13 @@
         android:layout_margin="10dp"
         android:text="Convert"/>
 
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/convert_button"
+        app:layout_constraintTop_toBottomOf="@id/convert_button"
+        android:textSize="24sp"
+        android:text="0"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
