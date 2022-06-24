@@ -17,19 +17,27 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <RadioGroup
+        android:checkedButton="@id/mls_and_ounces"
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="@id/units_to_convert"
         app:layout_constraintTop_toBottomOf="@id/units_to_convert">
         <RadioButton
+            android:id="@+id/mls_and_ounces"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mls and Ounces"/>
         <RadioButton
+            android:id="@+id/grams_and_cups"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Grams and Cups"/>
+        <RadioButton
+            android:id="@+id/grams_and_pounds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grams and Pounds"/>
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
